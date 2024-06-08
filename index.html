@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillsMatch Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+        }
+        .header nav {
+            margin-top: 10px;
+        }
+        .header nav a {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            display: inline-block;
+        }
+        .header nav a:hover {
+            background-color: #555;
+        }
+        .cover {
+            background-image: url('image/skiLL.jpg'); /* Replace with your cover image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Full viewport height */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .cover h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .cover p {
+            font-size: 24px;
+            margin: 10px 0 20px;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+        .section {
+            padding: 60px 20px;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .features {
+            background-color: #63C4CD;
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 60px 20px;
+        }
+        .feature {
+            max-width: 300px;
+            text-align: center;
+            margin: 20px;
+        }
+        .feature img, .feature video {
+            width: 100%;
+            height: 200px; /* Set a consistent height */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+            border-radius: 10px;
+        }
+        .feature h3 {
+            margin-top: 15px;
+            font-size: 24px;
+        }
+        .feature p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .testimonials {
+            background-color: #f9f9f9;
+            color: black;
+            padding: 60px 20px;
+        }
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .testimonial {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            font-style: italic;
+        }
+        .testimonial p {
+            font-size: 18px;
+            margin: 0;
+        }
+        .testimonial span {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .signup {
+            background-color: #63C4CD;
+            color: black;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .signup h2 {
+            margin-bottom: 20px;
+        }
+        .signup p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .signup-button {
+            padding: 15px 30px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .signup-button:hover {
+            background-color: #555;
+        }
+        .about {
+            background-color: #f4f4f4;
+            color: black;
+            padding: 60px 20px;
+        }
+        .about h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .about p {
+            text-align: center;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>SkillsMatch</h1>
+        <p>Your Reliable Solution for Urgent Needs</p>
+        <nav>
+            <a href="#signup">Sign Up</a>
+            <a href="#features">Features</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#about">About</a>
+        </nav>
+    </div>
+
+    <div class="cover">
+        <h1></h1>
+        <p></p>
+        <button class="cta-button" onclick="window.location.href='https://your-project-url.com';">Get Started</button>
+    </div>
+
+    <div class="section" id="features">
+        <h2>Benefits</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="image/time.jpg" alt="Real-Time Availability"> <!-- Replace with your image URL -->
+                <h3>Real-Time Availability</h3>
+                <p>Easily see which service providers are available in real-time. No more waiting for callbacks or emails. Instantly book the service you need at your convenience.</p>
+            </div>
+            <div class="feature">
+                <img src="image/friendly.jpg" alt="User-Friendly Interface"> <!-- Replace with your image URL -->
+                <h3>User-Friendly Interface</h3>
+                <p>Navigate through our intuitive and easy-to-use interface. Whether you’re booking a handyman or a tutor, our platform ensures a seamless experience from start to finish.</p>
+            </div>
+            <div class="feature">
+                <img src="image/directory.jpg" alt="Comprehensive Service Provider Directory"> <!-- Replace with your image URL -->
+                <h3>Comprehensive Service Provider Directory</h3>
+                <p>Browse through a comprehensive directory of vetted service providers. Access profiles, read reviews, and choose the best professional for your needs with confidence.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"The user-friendly interface and real-time availability feature are game changers. It’s now my go-to platform for any services I need."</p>
+            <span>- Segun Femi</span>
+        </div>
+    </div>
+
+    <div class="section signup" id="signup">
+        <h2>Sign Up Now</h2>
+        <p>Join SkillsMatch today and connect with professionals in real-time for all your service needs.</p>
+        <button class="signup-button" onclick="window.location.href='https://your-signup-url.com';">Sign Up</button>
+    </div>
+
+    <div class="section about" id="about">
+        <h2>About SkillsMatch</h2>
+        <p>Living in Abuja, I often struggled to find reliable service providers on short notice. One rainy season, our plumbing failed, and after hours of calling around with no luck, I realized there had to be a better way. Talking to friends and family, I discovered many shared the same frustration. This inspired me to create SkillsMatch, a platform designed to make finding and booking trusted, on-demand services easy and stress-free for busy Nigerians.</p>
+    </div>
+
+</body>
+</html>
+
